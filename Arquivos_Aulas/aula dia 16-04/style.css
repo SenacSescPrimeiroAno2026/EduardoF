@@ -1,0 +1,44 @@
+.cointainer{
+    width: 400px;
+    height: 400px;
+    
+}
+h1{
+
+    background-color: aqua;
+}
+.texto{
+    color: red;
+}
+p{
+    font-size: 40px;
+}
+.p1{
+    color: purple;
+}
+.p2{
+    color:green;
+}
+.t1{
+    font-size: 50px;
+}
+.div2{
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+#id_div1{
+    background-color: yellow;
+    color: orange;
+
+}
+.botao{
+    background-color:cyan;
+    color: white;
+    width: 400px;
+    height: 60px;
+    border-radius:22px;
+    border: 1px dashed black;
+    font-size: 30px;
+}

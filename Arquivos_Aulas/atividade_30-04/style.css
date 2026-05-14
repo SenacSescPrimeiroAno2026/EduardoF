@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+    font-family: initial;
+    margin: 20px;
+    color: white;
+}
+
+#titulo {
+    text-align: center;
+}
+
+h2, p {
+    margin: 10px;
+    text-align: center;
+}
+
+.neimar  {
+    background-color: black;
+    margin: 15px auto;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+.personagens{
+    background-color: black;
+    text-align: center;
+    margin: 25px auto;
+    padding: 70px;
+    width: 400px;
+    border-radius: 60px;
+}
+#recomendacao {
+    background-color: black;
+    border-bottom-right-radius: 60px;
+
+}
+.gg{
+text-align: center;
+color: white;
+background-color: blue;
+border-radius: 60px;
+margin: auto;
+padding: 30px;
+width: 350px;
+}
+
+img {
+    width: 170px;
+    height: 200px;
+}

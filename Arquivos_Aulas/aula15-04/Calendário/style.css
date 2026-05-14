@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    color: darkblue;
+}
+
+.tabela_calendario{
+    border: 3px solid lightblue;
+  border-radius: 10px;
+}
+td, th, tr{
+     border: 2px solid blue;
+border-radius: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+h1{
+  text-align: center  ;
+  color: blue;
+}
+.feriado{
+  background-color: aqua;
+}
+.feriado_estilo:hover{
+  background-color: darkcyan;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+

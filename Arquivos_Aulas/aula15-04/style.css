@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+ol{
+    color: red;
+}
+
+ul{
+    color: purple;
+}
+
+dl{
+    color: yellow;
+}
+
+li, dt{
+    font-size: 25px;
+}
+
+.div1{
+background-color: gray;
+}
+.div_pai{
+    background-color:gray;
+    width: 400px;
+    margin:auto;
+}
+
+.div2{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    display: inline-block;
+
+}
+.div3{
+    border: 1px solid white;
+    background-color: white;
+    color:black;
+    display: inline-block;
+}
+table, tr, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 400px;
+}
+.cointainer{
+    width: 300px;
+    margin:auto ;
+}

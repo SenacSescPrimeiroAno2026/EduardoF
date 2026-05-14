@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+    <h1 class="mb-4">Formulário de Cadastro</h1>
+
+    <form action="">
+
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control d-inline w-auto" id="nome">
+        </div>
+
+        <div class="mb-3">
+            <label for="idade" class="form-label">Idade:</label>
+            <input type="number" class="form-control d-inline w-auto" id="idade">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control d-inline w-auto" id="email">
+            <div class="form-text">Nunca vamos compartilhar seu email.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone:</label>
+            <input type="tel" class="form-control d-inline w-auto" id="telefone">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Turno</label><br>
+
+            <input class="form-check-input" type="radio" name="turno" id="manha">
+            <label for="manha">Manhã</label>
+
+            <input class="form-check-input ms-3" type="radio" name="turno" id="tarde">
+            <label for="tarde">Tarde</label>
+
+            <input class="form-check-input ms-3" type="radio" name="turno" id="noite">
+            <label for="noite">Noite</label>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Interesses</label><br>
+
+            <input class="form-check-input" type="checkbox" id="tec">
+            <label for="tec">Tecnologia</label>
+
+            <input class="form-check-input ms-3" type="checkbox" id="esp">
+            <label for="esp">Esportes</label>
+
+            <input class="form-check-input ms-3" type="checkbox" id="mus">
+            <label for="mus">Música</label>
+
+            <input class="form-check-input ms-3" type="checkbox" id="jogos">
+            <label for="jogos">Jogos</label>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="termos" required>
+            <label class="form-check-label" for="termos">Aceito os termos</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

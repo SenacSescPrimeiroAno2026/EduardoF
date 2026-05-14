@@ -1,0 +1,28 @@
+body{
+margin: 0;
+font
+
+
+
+
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    background-color: blue;
+padding: 55px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}

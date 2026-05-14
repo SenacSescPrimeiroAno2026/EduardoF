@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 5px; 
+
+}
+ table, tr, th,td{
+    border-style: dotted;
+    border-color: rgb(1, 76, 237);
+ }
+
+ table{
+    width: 100%;
+    height: 20%;
+    
+ }
+ tr{
+    height: 50px;
+    text-align: center;
+ }
+ th{background-color: rgb(255, 89, 0);}
+
+ .tabela2{ border-style: dashed;
+    background-color: aqua;
+
+}
+
