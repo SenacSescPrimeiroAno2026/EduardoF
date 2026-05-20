@@ -1,0 +1,19 @@
+body{
+background-color: gray;
+color: white;   
+
+}
+.container{
+    align-items: center;
+}
+.cabecalho{
+background-color: darkgrey;
+border-radius: 40px;
+}
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+}
