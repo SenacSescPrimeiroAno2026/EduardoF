@@ -60,3 +60,35 @@ p{
 
     color: #c9d1d9;
 }
+.meus-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.btn-projeto {
+    background-color: #03133F;
+    color: #fcfeff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    min-width: 200px;
+    transition: 0.3s ease;
+}
+
+
+.btn-projeto:hover {
+    background-color: #fcfeff;
+    color: #006eff;
+    transform: translateY(-5px);
+}
+
+
+
