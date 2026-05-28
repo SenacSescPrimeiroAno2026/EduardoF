@@ -3,131 +3,459 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Arquivos</title>
+
+    <title>Eduardo.dev | Projetos SENAC</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="logo">Eduardo.dev</div>
+    <!-- HEADER -->
+    <header class="header">
 
-        <div class="menu">
-            <a href="index.html">Início</a>
-            <a href="arquivos.html">Arquivos</a>
-        </div>
-    </nav>
+        <nav class="navbar">
 
-    <!-- HERO -->
-    <header class="hero">
-        <h1>Meus Arquivos e Projetos</h1>
+            <div class="logo">
+                Eduardo<span>.dev</span>
+            </div>
 
-        <p>
-            Aqui ficam meus projetos, exercícios, códigos,
-            atividades e experiências em HTML, CSS e Bootstrap.
-        </p>
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre</a>
+            </div>
 
-        <a href="#projetos" class="btn-hero">Ver Projetos</a>
+        </nav>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-text">
+
+                <span class="tag">
+                    SENAC • Desenvolvimento Web
+                </span>
+
+                <h1>
+                    Olá, eu sou <span>Eduardo</span>
+                </h1>
+
+                <p>
+                    Este site foi criado para organizar minhas aulas,
+                    exercícios, projetos e experiências desenvolvidas
+                    durante o curso de programação do SENAC.
+                    Aqui você encontrará atividades feitas com
+                    HTML, CSS, Bootstrap e outras tecnologias.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn-primary">
+                        Ver Projetos
+                    </a>
+
+                    <a href="#sobre" class="btn-secondary">
+                        Sobre Mim
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
     </header>
 
-    <!-- PROJETOS -->
+    <!-- MAIN -->
     <main id="projetos">
 
         <!-- MAIO -->
-        <section class="mes-box">
-            <h2>📁 Maio 2026</h2>
+        <section class="section-box">
 
-            <div class="meus-projetos">
+            <div class="section-title">
+                <h2>📁 Projetos de Maio</h2>
 
-                <a href="Arquivos_Aulas/26-05/index.html" class="btn-projeto">
-                    Correção da prova
-                </a>
+                <p>
+                    Exercícios e atividades desenvolvidos durante as aulas práticas.
+                </p>
+            </div>
 
-                <a href="Arquivos_Aulas/26-05/ChatGPT Image 26 de mai. de 2026, 12_37_46.png" class="btn-projeto">
-                    Imagem da prova
-                </a>
+            <div class="cards">
 
-                <a href="Arquivos_Aulas/atividade-formulário29-04/index.html" class="btn-projeto">
-                    Formulário
-                </a>
+                <!-- CARD -->
+                <article class="card">
 
-                <a href="Arquivos_Aulas/atividade-perfil/index.html" class="btn-projeto">
-                    Perfil 20-05
-                </a>
+                    <div class="card-top">
+                        <span class="card-category">
+                            HTML • CSS
+                        </span>
+
+                        <h3>Correção da Prova</h3>
+                    </div>
+
+                    <p>
+                        Página criada para revisar exercícios e conteúdos aplicados na prova.
+                        O projeto utiliza estrutura semântica, organização visual e estilização moderna.
+                    </p>
+
+                    <a href="Arquivos_Aulas/26-05/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Imagem • Atividade
+                        </span>
+
+                        <h3>Imagem da Prova</h3>
+                    </div>
+
+                    <p>
+                        Arquivo de imagem utilizado como apoio visual para resolução
+                        e análise da atividade desenvolvida em aula.
+                    </p>
+
+                    <a href="Arquivos_Aulas/26-05/ChatGPT Image 26 de mai. de 2026, 12_37_46.png" class="btn-card">
+                        Visualizar
+                    </a>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Formulários
+                        </span>
+
+                        <h3>Projeto Formulário</h3>
+                    </div>
+
+                    <p>
+                        Desenvolvimento de um formulário moderno com campos organizados,
+                        validações básicas e estilização profissional utilizando CSS.
+                    </p>
+
+                    <a href="Arquivos_Aulas/atividade-formulário29-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Perfil Web
+                        </span>
+
+                        <h3>Página de Perfil</h3>
+                    </div>
+
+                    <p>
+                        Projeto focado em criação de layouts pessoais,
+                        trabalhando alinhamento, imagens, tipografia e responsividade.
+                    </p>
+
+                    <a href="Arquivos_Aulas/atividade-perfil/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
 
             </div>
+
         </section>
 
         <!-- ABRIL -->
-        <section class="mes-box">
-            <h2>📁 Abril 2026</h2>
+        <section class="section-box">
 
-            <div class="meus-projetos">
+            <div class="section-title">
+                <h2>🚀 Projetos de Abril</h2>
 
-                <a href="Arquivos_Aulas/22-04/framework_bootstrap/index.html" class="btn-projeto">
-                    Framework Bootstrap
-                </a>
+                <p>
+                    Atividades focadas em Bootstrap, estruturação e estilização de páginas.
+                </p>
+            </div>
 
-                <a href="Arquivos_Aulas/23-04/index.html" class="btn-projeto">
-                    Desafio Bootstrap
-                </a>
+            <div class="cards">
 
-                <a href="Arquivos_Aulas/30-04/index.html" class="btn-projeto">
-                    Aula 30-04
-                </a>
+                <article class="card">
 
-                <a href="Arquivos_Aulas/atividade_30-04/index.html" class="btn-projeto">
-                    Atividade 30-04
-                </a>
+                    <div class="card-top">
+                        <span class="card-category">
+                            Bootstrap
+                        </span>
 
-                <a href="Arquivos_Aulas/aula-dia-14-04/index.html" class="btn-projeto">
-                    Aula 14-04
-                </a>
+                        <h3>Framework Bootstrap</h3>
+                    </div>
 
-                <a href="Arquivos_Aulas/aula-dia-16-04/index.html" class="btn-projeto">
-                    Aula 16-04
-                </a>
+                    <p>
+                        Projeto desenvolvido para aprender os componentes do Bootstrap,
+                        como grids, botões, cards e responsividade automática.
+                    </p>
 
-                <a href="Arquivos_Aulas/aula15-04/index.html" class="btn-projeto">
-                    Aula 15-04
-                </a>
+                    <a href="Arquivos_Aulas/22-04/framework_bootstrap/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Desafio Web
+                        </span>
+
+                        <h3>Desafio Bootstrap</h3>
+                    </div>
+
+                    <p>
+                        Exercício prático com foco em construção de páginas modernas
+                        utilizando o sistema de layout do Bootstrap.
+                    </p>
+
+                    <a href="Arquivos_Aulas/23-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Aula Prática
+                        </span>
+
+                        <h3>Aula 30-04</h3>
+                    </div>
+
+                    <p>
+                        Página criada durante a aula para praticar organização de conteúdo,
+                        estilização visual e estruturação com HTML e CSS.
+                    </p>
+
+                    <a href="Arquivos_Aulas/30-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Exercício
+                        </span>
+
+                        <h3>Atividade 30-04</h3>
+                    </div>
+
+                    <p>
+                        Atividade desenvolvida para reforçar conceitos de layout,
+                        alinhamento e criação de componentes visuais modernos.
+                    </p>
+
+                    <a href="Arquivos_Aulas/atividade_30-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            HTML • CSS
+                        </span>
+
+                        <h3>Aula 14-04</h3>
+                    </div>
+
+                    <p>
+                        Exercícios iniciais focados em estrutura semântica,
+                        títulos, listas, imagens e primeiros estilos em CSS.
+                    </p>
+
+                    <a href="Arquivos_Aulas/aula-dia-14-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Layout Web
+                        </span>
+
+                        <h3>Aula 16-04</h3>
+                    </div>
+
+                    <p>
+                        Projeto desenvolvido para praticar containers,
+                        alinhamentos, espaçamentos e estilização moderna.
+                    </p>
+
+                    <a href="Arquivos_Aulas/aula-dia-16-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Estruturação
+                        </span>
+
+                        <h3>Aula 15-04</h3>
+                    </div>
+
+                    <p>
+                        Atividade voltada para prática de tags HTML,
+                        organização visual e construção de páginas responsivas.
+                    </p>
+
+                    <a href="Arquivos_Aulas/aula15-04/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
 
             </div>
+
         </section>
 
         <!-- EXTRAS -->
-        <section class="mes-box">
-            <h2>⭐ Extras</h2>
+        <section class="section-box">
 
-            <div class="meus-projetos">
+            <div class="section-title">
+                <h2>⭐ Projetos Extras</h2>
 
-                <a href="Arquivos_Aulas/12-05/index.html" class="btn-projeto">
-                    Jogos que ensinam CSS
-                </a>
+                <p>
+                    Exercícios complementares e conteúdos explorados fora das aulas.
+                </p>
+            </div>
 
-                <a href="Arquivos_Aulas/formulario-bootstrap/formulario-bootstrap.html" class="btn-projeto">
-                    Formulário Bootstrap
-                </a>
+            <div class="cards">
 
-                <a href="Arquivos_Aulas/Calendário/index.html" class="btn-projeto">
-                    Calendário
-                </a>
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            CSS
+                        </span>
+
+                        <h3>Jogos que Ensinam CSS</h3>
+                    </div>
+
+                    <p>
+                        Página com jogos educativos utilizados para aprender Flexbox,
+                        Grid e posicionamento de elementos em CSS.
+                    </p>
+
+                    <a href="Arquivos_Aulas/12-05/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Bootstrap
+                        </span>
+
+                        <h3>Formulário Bootstrap</h3>
+                    </div>
+
+                    <p>
+                        Formulário responsivo desenvolvido utilizando componentes
+                        prontos do Bootstrap para criar um visual moderno e profissional.
+                    </p>
+
+                    <a href="Arquivos_Aulas/formulario-bootstrap/formulario-bootstrap.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
+
+                <article class="card">
+
+                    <div class="card-top">
+                        <span class="card-category">
+                            Calendário
+                        </span>
+
+                        <h3>Calendário Interativo</h3>
+                    </div>
+
+                    <p>
+                        Projeto criado para trabalhar tabelas,
+                        organização de datas e estilização visual de calendários.
+                    </p>
+
+                    <a href="Arquivos_Aulas/Calendário/index.html" class="btn-card">
+                        Abrir Projeto
+                    </a>
+
+                </article>
 
             </div>
+
         </section>
 
     </main>
 
-    <!-- RODAPÉ -->
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+
+        <div class="about-box">
+
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+                Este portfólio foi desenvolvido por Eduardo durante as aulas
+                de programação do SENAC com o objetivo de armazenar exercícios,
+                atividades e projetos desenvolvidos ao longo do curso.
+            </p>
+
+            <p>
+                O site utiliza HTML5 e CSS3 modernos, com foco em design elegante,
+                responsividade, organização visual e boas práticas de desenvolvimento web.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
+
         <h3>Eduardo.dev</h3>
 
         <p>
-            Site criado para organizar meus estudos e projetos de programação.
+            Desenvolvido com dedicação durante os estudos de programação no SENAC.
         </p>
 
-        <span>© 2026 Todos os direitos reservados.</span>
+        <span>
+            © 2026 • Todos os direitos reservados
+        </span>
+
     </footer>
 
 </body>
