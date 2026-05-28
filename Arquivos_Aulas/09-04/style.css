@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+img{
+    width:400px;
+    height: 200px;
+}
+.saga{
+    color: black;
+    background-color: url('14636767534288977.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

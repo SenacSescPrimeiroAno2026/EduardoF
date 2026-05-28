@@ -3,42 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arquivos</title>
+    <title>Meus Arquivos</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar">
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="arquivos.html">Arquivos</a>
+        <div class="logo">Eduardo.dev</div>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="arquivos.html">Arquivos</a>
+        </div>
     </nav>
 
-    <div class="container">
-        <h1>Aqui vai ficar meus arquivos</h1>
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Meus Arquivos e Projetos</h1>
 
         <p>
-            como projetos, arquivos, códigos etc.
+            Aqui ficam meus projetos, exercícios, códigos,
+            atividades e experiências em HTML, CSS e Bootstrap.
         </p>
-    </div>
-    <div class="meus-projetos">
-        <a href="Arquivos_Aulas/12-05/index.html"class="btn-projeto">Jogos que ensina CSS </a>
-        <a href="Arquivos_Aulas/22-04/framework_bootstrap/index.html"class="btn-projeto">framework_bootstrap</a>
-        <a href="Arquivos_Aulas/23-04/index.html"class="btn-projeto">Desafio Bootstrap</a>
-        <a href="Arquivos_Aulas/26-05/index.html" class="btn-projeto">Correção da prova</a>
-        <a href="Arquivos_Aulas/26-05/ChatGPT Image 26 de mai. de 2026, 12_37_46.png" class="btn-projeto">Imagem da prova</a>
-        <a href="Arquivos_Aulas/atividade-formulário29-04/index.html" class="btn-projeto">Formulário</a>
-        <a href="Arquivos_Aulas/30-04/index.html"class="btn-projeto">30-04</a>
-        <a href="Arquivos_Aulas/atividade-perfil/index.html" class="btn-projeto">20-05</a>
-        <a href="Arquivos_Aulas/atividade_30-04/index.html" class="btn-projeto">Atividade 30-04</a>
-        <a href="Arquivos_Aulas/aula-dia-14-04/index.html" class="btn-projeto">aula-dia-14-04</a>
-        <a  href="Arquivos_Aulas/aula-dia-16-04/index.html" class="btn-projeto">aula-dia-16-04</a>
-        <a href="Arquivos_Aulas/aula15-04/index.html" class="btn-projeto">aula15-04</a>
-        <a href="Arquivos_Aulas/formulario-bootstrap/formulario-bootstrap.html" class="btn-projeto">formulário-botstrap</a> 
-        <a href="Arquivos_Aulas/Calendário/index.html" class="btn-projeto">Calendário</a>
-        
-      
-</div>
+
+        <a href="#projetos" class="btn-hero">Ver Projetos</a>
+    </header>
+
+    <!-- PROJETOS -->
+    <main id="projetos">
+
+        <!-- MAIO -->
+        <section class="mes-box">
+            <h2>📁 Maio 2026</h2>
+
+            <div class="meus-projetos">
+
+                <a href="Arquivos_Aulas/26-05/index.html" class="btn-projeto">
+                    Correção da prova
+                </a>
+
+                <a href="Arquivos_Aulas/26-05/ChatGPT Image 26 de mai. de 2026, 12_37_46.png" class="btn-projeto">
+                    Imagem da prova
+                </a>
+
+                <a href="Arquivos_Aulas/atividade-formulário29-04/index.html" class="btn-projeto">
+                    Formulário
+                </a>
+
+                <a href="Arquivos_Aulas/atividade-perfil/index.html" class="btn-projeto">
+                    Perfil 20-05
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ABRIL -->
+        <section class="mes-box">
+            <h2>📁 Abril 2026</h2>
+
+            <div class="meus-projetos">
+
+                <a href="Arquivos_Aulas/22-04/framework_bootstrap/index.html" class="btn-projeto">
+                    Framework Bootstrap
+                </a>
+
+                <a href="Arquivos_Aulas/23-04/index.html" class="btn-projeto">
+                    Desafio Bootstrap
+                </a>
+
+                <a href="Arquivos_Aulas/30-04/index.html" class="btn-projeto">
+                    Aula 30-04
+                </a>
+
+                <a href="Arquivos_Aulas/atividade_30-04/index.html" class="btn-projeto">
+                    Atividade 30-04
+                </a>
+
+                <a href="Arquivos_Aulas/aula-dia-14-04/index.html" class="btn-projeto">
+                    Aula 14-04
+                </a>
+
+                <a href="Arquivos_Aulas/aula-dia-16-04/index.html" class="btn-projeto">
+                    Aula 16-04
+                </a>
+
+                <a href="Arquivos_Aulas/aula15-04/index.html" class="btn-projeto">
+                    Aula 15-04
+                </a>
+
+            </div>
+        </section>
+
+        <!-- EXTRAS -->
+        <section class="mes-box">
+            <h2>⭐ Extras</h2>
+
+            <div class="meus-projetos">
+
+                <a href="Arquivos_Aulas/12-05/index.html" class="btn-projeto">
+                    Jogos que ensinam CSS
+                </a>
+
+                <a href="Arquivos_Aulas/formulario-bootstrap/formulario-bootstrap.html" class="btn-projeto">
+                    Formulário Bootstrap
+                </a>
+
+                <a href="Arquivos_Aulas/Calendário/index.html" class="btn-projeto">
+                    Calendário
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <h3>Eduardo.dev</h3>
+
+        <p>
+            Site criado para organizar meus estudos e projetos de programação.
+        </p>
+
+        <span>© 2026 Todos os direitos reservados.</span>
+    </footer>
+
 </body>
 </html>
